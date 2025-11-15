@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do List with Category</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  
+  <h1>To-Do List By Supalerk Chanklang
+  </h1>
+
+  <button id="toggleMode" class="mode-btn">Dark Mode</button>
+
+  <div class="input-area">
+    <input id="taskInput" type="text" placeholder="เพิ่มงานใหม่..." />
+
+    <select id="categorySelect">
+      <option value="ทั่วไป">ทั่วไป</option>
+      <option value="เรียน">เรียน</option>
+      <option value="งานบ้าน">งานบ้าน</option>
+      <option value="ออกกำลังกาย">ออกกำลังกาย</option>
+      <option value="อยากเรียนวิศวะคอม">อยากเรียนวิศวะคอม</option>
+      <option value="อื่น ๆ">อื่น ๆ</option>
+    </select>
+
+    <button id="addBtn">เพิ่ม</button>
+  </div>
+
+  <div class="filter-area">
+    <select id="filterSelect">
+      <option value="ทั้งหมด">ทั้งหมด</option>
+      <option value="ทั่วไป">ทั่วไป</option>
+      <option value="เรียน">เรียน</option>
+      <option value="งานบ้าน">งานบ้าน</option>
+      <option value="ออกกำลังกาย">ออกกำลังกาย</option>
+      <option value="อยากเรียนวิศวะคอม">อยากเรียนวิศวะคอม</option>
+      <option value="อื่น ๆ">อื่น ๆ</option>
+    </select>
+  </div>
+
+  <ul id="taskList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
